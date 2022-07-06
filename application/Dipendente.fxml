@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="garetext" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="614.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="textIDPERSONALE" fill="#012c46" layoutX="14.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserire id personale" />
+      <Text fx:id="textPasswordPersonale" fill="#012c46" layoutX="22.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserire la password" />
+      <TextField fx:id="IDPERSONALETEXT" layoutX="141.0" layoutY="217.0" promptText="id personale " />
+      <Button fx:id="ENTERAREADIPENDENTI" layoutX="215.0" layoutY="332.0" mnemonicParsing="false" text="entra nell'area dipendenti" textFill="#012c46" />
+      <PasswordField fx:id="PWDPERSONALETEXT" layoutX="141.0" layoutY="278.0" promptText="password" />
+      <Text fill="#338db7" layoutX="179.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AREA DIPENDENTE ">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="imgdipendente" fitHeight="135.0" fitWidth="107.0" layoutX="500.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@dipendete.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="TEXTAREALISTASOCI" layoutX="287.0" layoutY="116.0" prefHeight="182.0" prefWidth="302.0" visible="false" />
+      <TextArea fx:id="TEXTAREAGARE" layoutX="13.0" layoutY="76.0" prefHeight="194.0" prefWidth="255.0" visible="false" />
+      <TextArea fx:id="TEXTAREABARCHE" layoutX="13.0" layoutY="381.0" prefHeight="200.0" prefWidth="255.0" visible="false" />
+      <TextArea fx:id="TEXTAREALISTAPAGAMENTI" layoutX="287.0" layoutY="384.0" prefHeight="194.0" prefWidth="302.0" visible="false" />
+      <Text fx:id="garatext" layoutX="34.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GARA: ID-QUOTA-DATA-LUOGO" visible="false" wrappingWidth="214.34884643554688" />
+      <Text fx:id="credenzialitext" layoutX="290.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREDENZIALI SOCIO: ID-NOME-COGNOME-INDIRIZZO-USERNAMME-PWD-CARTA " visible="false" wrappingWidth="296.166748046875" />
+      <Text fx:id="barchetext" layoutX="26.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BARCHE: ID-NOME-LUNGHEZZA-ID SOCIO " visible="false" />
+      <Text fx:id="pagamentitext" layoutX="287.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAGAMENTI: TIPO-IMPORTO-ID SOCIO- DATA-METODO" visible="false" />
+      <Button fx:id="barchettadmin" layoutX="121.0" layoutY="586.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="95.0" text="Gestione Barca" visible="false" />
+      <Button fx:id="ButtonGestioneGare" layoutX="367.0" layoutY="586.0" mnemonicParsing="false" text="Gestione Gare" visible="false" />
+   </children>
+</AnchorPane>

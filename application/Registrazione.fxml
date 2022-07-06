@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#338db7" layoutX="171.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benvento nell' area registrazione ">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font></Text>
+      <TextField fx:id="CARTATEXT" layoutX="288.0" layoutY="345.0" promptText="Carta di credito" />
+      <TextField fx:id="CFTEXT" layoutX="288.0" layoutY="120.0" promptText="Codice fiscale " />
+      <TextField fx:id="NOMETEXT" layoutX="288.0" layoutY="160.0" promptText="Nome" />
+      <TextField fx:id="COGNOMETEXT" layoutX="288.0" layoutY="200.0" promptText="Cognome" />
+      <TextField fx:id="INDIRIZZOTEXT" layoutX="288.0" layoutY="234.0" promptText="Indirizzo" />
+      <TextField fx:id="USERNAMETEXT" layoutX="288.0" layoutY="274.0" promptText="Username" />
+      <TextField fx:id="PWDTEXT" layoutX="288.0" layoutY="310.0" promptText="Password" />
+      <Text fill="#012c46" layoutX="197.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserire il CF" />
+      <Text fill="#012c46" layoutX="208.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <Text fill="#012c46" layoutX="198.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
+      <Text fill="#012c46" layoutX="203.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indirizzo" />
+      <Text fill="#012c46" layoutX="198.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text fill="#012c46" layoutX="212.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text fill="#012c46" layoutX="183.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carta di credito" />
+      <Button fx:id="ENTERAREAREGISTRAZIONE" layoutX="313.0" layoutY="410.0" mnemonicParsing="false" text="INVIO" textFill="#338db7" />
+      <ImageView fitHeight="168.0" fitWidth="109.0" layoutX="484.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\fstef\eclipse-workspace\Velieri\src\application\Foto_regg.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="IDBARCAADD" layoutX="369.0" layoutY="128.0" promptText="ID barca da aggiungere" />
+      <TextField fx:id="NOMEADD" layoutX="369.0" layoutY="190.0" promptText="Nome barca" />
+      <TextField fx:id="LUNGHEZZAADD" layoutX="369.0" layoutY="264.0" promptText="Lunghezza Barca" />
+      <TextField fx:id="IDBARCADELETE" layoutX="83.0" layoutY="347.0" promptText="ID barca da rimuovere " />
+      <Text fill="#338db7" layoutX="360.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserire ID barca da aggiungere" />
+      <Text fill="#338db7" layoutX="369.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome barca" />
+      <Text fill="#338db7" layoutX="369.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lunghezza barca" />
+      <Text fill="#338db7" layoutX="83.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserire barca da rimuovere" />
+      <Button fx:id="enterRimozioneBarca" layoutX="117.0" layoutY="406.0" mnemonicParsing="false" text="Rimozione barca " textFill="#338db7" />
+      <Button fx:id="enterAggiungiBarca" layoutX="392.0" layoutY="406.0" mnemonicParsing="false" text="Aggiungi barca" textFill="#338db7" />
+      <Text fill="#338db7" layoutX="225.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AREA BARCHE ">
+         <font>
+            <Font name="Baskerville Old Face" size="26.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="70.0" fitWidth="76.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\fstef\eclipse-workspace\Velieri\src\application\Sezione_pay.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="TEXTAREASOCIOBARCHE" layoutX="58.0" layoutY="116.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="81.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID-NAME-LENGHT-ID SOCIO" />
+   </children>
+</AnchorPane>

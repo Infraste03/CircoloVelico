@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="625.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="252.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestione Gare">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="IdGara" layoutX="42.0" layoutY="136.0" promptText="ID GARA" />
+      <Text layoutX="52.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID gara da aggiungere" />
+      <Text layoutX="52.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quota" />
+      <TextField fx:id="QuotaGara" layoutX="43.0" layoutY="245.0" promptText="quota" />
+      <Text layoutX="425.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data" />
+      <TextField fx:id="DataGara" layoutX="375.0" layoutY="136.0" promptText="Data" />
+      <Text layoutX="414.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo" />
+      <TextField fx:id="LuogoGara" layoutX="368.0" layoutY="232.0" promptText="luogo" />
+      <Button fx:id="Aggiungi" layoutX="252.0" layoutY="348.0" mnemonicParsing="false" text="Aggiungi" />
+   </children>
+</AnchorPane>
